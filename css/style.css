@@ -71,7 +71,7 @@ header {
 }
 .header {
   height: 433px;
-	
+  
 }
 
 .clearfix::after {
@@ -119,7 +119,7 @@ header {
   margin-left: 135px;
 }
 .main-nav li {
-	display: inline-block;
+  display: inline-block;
   vertical-align: top;
   font-size: 14px;
   line-height: 30px;
@@ -209,6 +209,14 @@ header {
 .slide-text p{
   font-size: 16px;
   line-height: 21px;
+  padding-right: 35px;
+  letter-spacing: 0.009em;
+}
+.last  p{
+  padding-right: 32px;
+}
+.last h1 {
+  padding-right: 58px;
 }
 .slide-title{
   font-size:36px;
@@ -222,7 +230,10 @@ header {
 }
 .slides-line {
   width: 300%;
+  -webkit-transition: -webkit-transform 0.8s ease;
+  transition: -webkit-transform 0.8s ease;
   transition: transform 0.8s ease;
+  transition: transform 0.8s ease, -webkit-transform 0.8s ease;
 
 }
 .slide .btn{
@@ -255,13 +266,16 @@ header {
 }
 
 #btn-1:checked ~ .slides .slides-line { 
-  transform: translate(0);
+  -webkit-transform: translate(0); 
+          transform: translate(0);
 }
 #btn-2:checked ~ .slides .slides-line { 
-  transform: translate(-880px);
+  -webkit-transform: translate(-880px); 
+          transform: translate(-880px);
 }
 #btn-3:checked ~ .slides .slides-line { 
-  transform: translate(calc(-880px*2));
+  -webkit-transform: translate(calc(-880px*2)); 
+          transform: translate(calc(-880px*2));
 }
 
 /* блок преимуществ */
@@ -295,7 +309,11 @@ header {
   font-size: 15px;
   line-height: 22px;
   color: #283136;
+  letter-spacing: 0.012em;
 
+}
+.apps p {
+  margin-right: 15px;
 }
 .feature-item a,
 .btn-contacts {
@@ -531,12 +549,14 @@ b.since:before {
   padding: 50px 85px;
   background: #ffffff;
   color: #000000;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   box-shadow: 0 30px 70px 10px #283136;
   position: fixed;
   top: 53%;
   left: 49%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 .modal-content.show {
   display: block;
@@ -571,11 +591,13 @@ b.since:before {
 }
 
 .modal-content-close::before {
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .modal-content-close::after {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .name-modal {
@@ -749,7 +771,7 @@ textarea {
   width: 100%;
   height: 416px;
   position: relative;
-  background-color: grey;
+  background-color: #808080;
 }
 .contacts-wrap {
   position: absolute;
@@ -773,17 +795,21 @@ textarea {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  letter-spacing: 0.012em;
 }
 .contacts p {
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 20px;
   color: #666666;
+  letter-spacing: 0.012em;
 }
 .write-us {
   margin-top: 30px;
 }
-
+.contacts .tel {
+  letter-spacing: 0.012em;
+}
 
 /* catalog */
 .main-contaner {
@@ -1083,7 +1109,7 @@ textarea {
   color: #000000;
 }
 .arrow li a:active {
-  color: 00ca74;
+  color: #00ca74;
 } 
 .arrow>a{
   display: inline-block;
