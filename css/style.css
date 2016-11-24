@@ -786,7 +786,7 @@ textarea {
   background-color: #ffffff;
   position: absolute;
   margin-top: 88px;
-  left: 0;
+  left: -5px;
   padding: 31px 20px 29px 23px;
   box-sizing: border-box;
 
