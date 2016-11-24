@@ -408,15 +408,18 @@ header {
   margin-top: 18px;
   padding-right: 5px;
   color: #283136;
+  letter-spacing: 0.012em;
 }
 .list-left {
   margin-top: 44px;
+  letter-spacing: 0.008em;
 }
 .list-left ul,
 .list-right ul {
   margin-top: 22px;
   list-style: none;
   padding-left: 35px;
+  letter-spacing: 0.008em;
 }
 .list-left ul {
   margin-top: 22px;
