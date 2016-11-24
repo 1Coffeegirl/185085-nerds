@@ -809,6 +809,7 @@ textarea {
 }
 .contacts .tel {
   letter-spacing: 0.012em;
+  color: #666666;
 }
 
 /* catalog */
