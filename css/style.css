@@ -787,7 +787,7 @@ textarea {
   position: absolute;
   margin-top: 88px;
   left: 0;
-  padding: 29px 20px;
+  padding: 31px 20px 29px 23px;
   box-sizing: border-box;
 
 }
@@ -796,6 +796,7 @@ textarea {
   line-height: 20px;
   text-transform: uppercase;
   letter-spacing: 0.012em;
+  margin-top: 20px;
 }
 .contacts p {
   margin-bottom: 20px;
@@ -803,6 +804,7 @@ textarea {
   line-height: 20px;
   color: #666666;
   letter-spacing: 0.012em;
+  margin-top: 18px;
 }
 .write-us {
   margin-top: 30px;
